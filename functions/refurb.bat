@@ -5,7 +5,7 @@ for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1)
 )
 :main
 echo Connecting to network...
-netsh wlan set hostednetwork mode=allow ssid="Upnorth Computers 5g" key="133SSanta"
+netsh wlan set hostednetwork mode=allow ssid="Up North Computers 5G" key="133SSanta"
 echo.
 echo Connected!
 echo.
