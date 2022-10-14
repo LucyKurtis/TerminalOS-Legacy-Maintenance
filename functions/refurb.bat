@@ -33,7 +33,14 @@ echo Executing One-Liner...
 dism /online /cleanup-image /restorehealth
 sfc /scannow
 cls
-
+echo.
+echo.
+echo Default apps have been installed and the One-Liner has been partially ran.
+echo You still have to configure LibreOffice, as well as run chkdsk, as this hasnt been added yet
+echo ..as well as the rest of the setup, good luck!
+echo.
+set /p cmd=   Press any key to continue...:
+goto close
 
 :close
 :: This is the close section, if you want to close your app just type "goto close"
